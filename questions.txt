@@ -1,0 +1,20 @@
+1: Meget ulige sekvenser -> leading gaps ingen af non-center sequence overlap
+--------------A----A------T-G--------C----C------CA-- <- Center sequence
+-------------------G------T----------T----C------GA--
+-------GTTCCGAA----A---GGCTAG--------C---GC--TAGGCGCC
+---ATGG-------A-TTTA-TC---T-G--------C--T-CTT----CG--
+TGC-----------AT---GC-----T-GAAACTTCTCAA--C------CA--
+
+
+2: Alignments fra distance-matrix, recomputed i msa.
+	- Memory vs. computation
+
+
+3: Prim expirement with choice of root, shortest seq, longest seq, lowest/highest distance
+
+4: Work with list of sequence names to keep index order?
+# Timeit sequence_list[4::] vs islice(enumerate(sequence_list), 4, len(sequence_list))
+
+5: Prim extention only add gaps from the msa_tree sequence
+
+6: Gusfield dont fuck with sequence dict
